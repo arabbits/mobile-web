@@ -1,0 +1,126 @@
+body{
+	padding-top:45px; 
+
+}
+
+.safe-tip{
+	height: 35px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+	text-align: center;
+	line-height: 35px;
+	/*position: relative;*/
+}
+.safe-tip p:before{
+	content: '';
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../images/icons/safe_icon.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/*用相对定位让北京图片居中或者使用css*/
+	/*position: relative;
+	top: 5px;
+	margin-right: 5px;*/
+	vertical-align: middle;
+	margin: 0 5px 2px 0;
+
+}
+/*开始购物车*/
+.cate-main{
+	margin-top: 15px;
+	background-color: #fff;
+}
+.cate-t{
+	height: 35px;
+	line-height: 35px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.cate-t .jd-zy{
+	text-indent: 20px;
+	position: relative;
+}
+.cate-t .jd-zy:before{
+	width: 15px;
+	height: 10px;
+	background-position: 0 0;
+	left: 0;
+	-webkit-background-size: 120px;
+	background-size: 120px;
+}
+.care{
+	color: red;
+	margin-right:10px; 
+}
+.cate-b .item{
+	padding: 10px 0;
+	border-bottom:1px solid #ccc ;
+}
+
+.cate-b .imgwrap{
+	width: 80px;
+	height: 80px;
+}
+/*写右面*/
+.txtwrap {
+	margin-left: 130px;
+
+}
+/* 按钮加减的css*/
+.btn-wrap{
+	margin-top: 9px;
+}
+
+.icon-wrap{
+	width: 120px;
+	height: 35px;
+	border: 1px solid #ccc;
+}
+.icon-wrap span{
+	height: 100%;
+	line-height: 35px;
+	text-align: center;
+}
+.icon-wrap .num input{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	outline: none;
+}
+
+/*  删除垃圾桶*/
+.del{
+	margin:5px 10px 0 0;
+}
+.del-t{
+	width: 20px;
+	height: 5px;
+	background: url(../images/icons/delete_up.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/*padding-right:2px; */
+	transition: transform .5s ;
+	/*transform-origin: left bottom;*/
+}
+.del-r{
+	width: 18px;
+	height: 18px;
+	background: url(../images/icons/delete_down.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin:0 auto;
+}
+/*.modals{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 9999;
+}*/
